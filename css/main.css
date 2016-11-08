@@ -1,16 +1,4 @@
 /**************************************************
-Fonts
-Droid Serif
-Droid Sans
-Droid Sans Mono
-
-
-font-family: 'Raleway', sans-serif;
-font-family: 'Josefin Slab', serif;
-
-Arial, Helvetica, sans-serif
-"Times New Roman", Times, serif
-
 Font Scaling
 6.854rem
 4.236rem
@@ -59,7 +47,7 @@ a {
 }
 
 p {
-	padding: 1.0rem 0;
+	padding: 0.618rem;
 }
 
 pre,
@@ -155,6 +143,7 @@ main {
 	background-color: azure;
 }
 
+/*
 footer {
 	width: 100%;
 }
@@ -163,6 +152,31 @@ footer ul li {
 	list-style: none;
 	display: inline;
 }
+*/
+	footer {
+		width: 100%;
+		clear: both;
+		overflow: hidden;
+		border-top: 1px solid #ccc;
+		padding-top: 12px;
+		text-align: center;
+	}
+	footer a:link {
+		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;
+		text-decoration: none;
+	}
+	footer p {
+		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;;
+		padding: 0;
+		text-align: center;
+
+	}
+	footer ul li {
+		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;
+		list-style: none;
+		display: inline;
+
+	}
 
 @media screen and (min-width:600px) {
 	.wrapper {
@@ -205,23 +219,32 @@ footer ul li {
 		float: left;
 		margin-right: 0.6rem;
 	}
+/*
 	footer {
 		width: 90%;
 		clear: both;
 		overflow: hidden;
 		border-top: 1px solid #ccc;
+		padding-top: 12px;
+		text-align: center;
 	}
 	footer a:link {
 		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;
+		text-decoration: none;
 	}
 	footer p {
-		font-size: 0.618rem;
-		float: left;
+		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;;
+		padding: 0;
+		text-align: center;
+
 	}
 	footer ul li {
+		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;
 		list-style: none;
 		display: inline;
+
 	}
+*/
 }
 
 @media screen and (min-width: 800px) {
@@ -253,7 +276,7 @@ footer ul li {
 		float: left;
 	}
 	footer {
-		width: 90%;
+		width: 100%;
 	}
 }
 
@@ -294,6 +317,6 @@ footer ul li {
 		width: 55%;
 	}
 	footer {
-		width: 90%;
+		width: 100%;
 	}
 }
