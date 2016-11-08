@@ -73,12 +73,30 @@ kbd {
     LAYOUT - MOBILE FIRST
 ***************************/
 
-h1 {
-	background-image: url('https://images.unsplash.com/photo-1442606440995-d0be22c5f90f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=aba2ea231e132d2feede0da287e1b2de');
+header {
+	min-height: 150px;
+	position: relative;
+}
+
+header::after {
+	content: "";
+	background: url('https://images.unsplash.com/photo-1454982523318-4b6396f39d3a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=7b948eaac453d93d778202f8852a1ebb');
+	opacity: 0.7;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	position: absolute;
 	background-size: cover;
-	background-position: center 30%;
+	background-position: center 10%;
 	background-repeat: no-repeat;
+	z-index: -1;
+}
+
+h1 {
+	color: white;
 	padding: 10px;
+	text-shadow: 2px 2px 4px black;
 }
 
 .wrapper {
@@ -175,7 +193,6 @@ footer ul li {
 		padding: 5px;
 		float: left;
 	}
-	
 	/*
     main:after {
         display: block;
