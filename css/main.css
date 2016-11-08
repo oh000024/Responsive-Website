@@ -59,7 +59,7 @@ a {
 }
 
 p {
-	padding: 0.618rem;
+	padding: 1.0rem 0;
 }
 
 pre,
@@ -246,7 +246,7 @@ footer ul li {
 	}
 	h1 {
 		height: 100%;
-		font: normal 6.854rem 'Josefin Slab', 'Times', serif;
+		font: bold 6.854rem 'Josefin Slab', 'Times', serif;
 	}
 	h2 {
 		font: normal 4.236rem 'Josefin Slab', 'Times', serif;
@@ -266,7 +266,7 @@ footer ul li {
 		width: 100%;
 		display: block;
 		float: left;
-		font: normal 1.618rem 'Raleway', 'Helvetica', sans-serif;
+		font: bold 1.618rem 'Raleway', 'Helvetica', sans-serif;
 	}
 	main {
 		width: 65%;
