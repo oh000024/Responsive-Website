@@ -23,20 +23,17 @@ Colour scheme
 
 **************************************************/
 
-
-/*@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';*/
-
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 html {
-    font-size: 16px;
-    line-height: 1.6;
-    font-family: 'Droid Sans', 'Helvetica', sans-serif;
-    background-color: #36d1c4;
+	font-size: 16px;
+	line-height: 1.6;
+	font-family: 'Droid Sans', 'Helvetica', sans-serif;
+	background-color: #36d1c4;
 }
 
 
@@ -45,30 +42,30 @@ DEFAULTS - MOBILE FIRST
 ***************************/
 
 h1 {
-    font: bold 4.236rem 'Josefin Slab', 'Times', serif;
-    padding: 10px;
+	font: bold 4.236rem 'Josefin Slab', 'Times', serif;
+	padding: 10px;
 }
 
 h2 {
-    font: bold 2.618rem 'Josefin Slab', 'Times', serif;
-    padding-top: 10px;
-    background-color: hsla(0, 100%, 50%, 0.2);
+	font: bold 2.618rem 'Josefin Slab', 'Times', serif;
+	padding: 1.0rem 0 0 1.0rem;
+	background-color: hsla(0, 100%, 50%, 0.2);
 }
 
 li,
 p,
 a {
-    font: normal 1.0rem 'Raleway', 'Helvetica', sans-serif;
+	font: normal 1.0rem 'Raleway', 'Helvetica', sans-serif;
 }
 
 p {
-    padding: 10px;
+	padding: 0.618rem;
 }
 
 pre,
 code,
 kbd {
-    font: normal 1.0rem 'Raleway', 'Helvetica' sans-serif;
+	font: normal 1.0rem 'Raleway', 'Helvetica' sans-serif;
 }
 
 
@@ -77,45 +74,44 @@ kbd {
 ***************************/
 
 h1 {
-    background-image: url('https://images.unsplash.com/photo-1442606440995-d0be22c5f90f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=aba2ea231e132d2feede0da287e1b2de');
-    background-size: cover;
-    background-position: center 30%;
-    background-repeat: no-repeat;
-    padding: 10px;
+	background-image: url('https://images.unsplash.com/photo-1442606440995-d0be22c5f90f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=aba2ea231e132d2feede0da287e1b2de');
+	background-size: cover;
+	background-position: center 30%;
+	background-repeat: no-repeat;
+	padding: 10px;
 }
 
 .wrapper {
-    width: 95%;
-    margin: 0 auto;
-    /*    z-index: -1;*/
+	width: 95%;
+	margin: 0 auto;
 }
 
 header {
-    width: 100%;
-    margin: 2% 0;
+	width: 100%;
+	margin: 2% 0;
 }
 
 nav {
-    width: 100%;
-    margin: 0 auto;
+	width: 100%;
+	margin: 0 auto;
 }
 
 nav>ul {
-    width: 100%;
+	width: 100%;
 }
 
 nav li {
-    width: 100%;
-    list-style: none;
-    background-color: #A0EECC;
+	width: 100%;
+	list-style: none;
+	background-color: #A0EECC;
 }
 
 nav a,
 nav a:link,
 nav a:visited {
-    display: block;
-    font: bold 1.618rem 'Raleway', 'Helvetica', sans-serif;
-    text-align: center;
+	display: block;
+	font: bold 1.618rem 'Raleway', 'Helvetica', sans-serif;
+	text-align: center;
 }
 
 nav a:active,
@@ -123,156 +119,164 @@ nav a:focus,
 nav a:hover {}
 
 main {
-    width: 100%;
-    background-color: #fff2be;
-    margin: 0 auto;
+	width: 100%;
+	background-color: #fff2be;
+	margin: 0 auto;
 }
 
 .col {
-    width: 100%;
-    float: none;
-    padding-bottom: 20px;
+	width: 100%;
+	float: none;
+	padding-bottom: 20px;
 }
 
 .col img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    background-color: azure;
+	width: 100%;
+	height: auto;
+	max-width: 100%;
+	background-color: azure;
 }
 
 footer {
-    width: 100%;
+	width: 100%;
+}
+
+footer ul li {
+	list-style: none;
+	display: inline;
 }
 
 @media screen and (min-width:600px) {
-    .wrapper {
-        width: 100%;
-        
-    }
-    header {
-        width: 100%;
-    }
-    nav {
-        width: 90%;
-          
-    }
-    nav ul li {
-        width: 20%;
-        display: inline;
-        float: left;
-            }
-    main {
-        width: 90%;
-        height: 100%;
-         overflow: hidden;   
-    }
-    .col {
-        width: 50%;
-        padding: 5px;
-        float: left;
-    }
-/*
+	.wrapper {
+		width: 100%;
+	}
+	header {
+		width: 100%;
+	}
+	h2 {
+		min-height: 3rem;
+		padding: 1.0rem;
+	}
+	nav {
+		width: 90%;
+	}
+	nav ul li {
+		width: 20%;
+		display: inline;
+		float: left;
+	}
+	main {
+		width: 90%;
+		height: 100%;
+		overflow: hidden;
+	}
+	.col {
+		width: 50%;
+		padding: 5px;
+		float: left;
+	}
+	
+	/*
     main:after {
         display: block;
         content: " ";
         clear: both;
     }
 */
-    .col img {
-        width: 60%;
-        float: left;
-        margin-right: 0.6rem;
-    }
-    footer {
-        width: 90%;
-        clear: both;
-        overflow: hidden;
-        border-top: 1px solid #ccc;
-    }
-    footer a:link {
-        font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;
-    }
-    footer p {
-        font-size: 0.618rem;
-        float: left;
-    }
-    footer ul li {
-        list-style: none;
-        display: inline;
-    }
+	.col img {
+		width: 60%;
+		float: left;
+		margin-right: 0.6rem;
+	}
+	footer {
+		width: 90%;
+		clear: both;
+		overflow: hidden;
+		border-top: 1px solid #ccc;
+	}
+	footer a:link {
+		font: bold 0.618rem 'Raleway', 'Helvetica', sans-serif;
+	}
+	footer p {
+		font-size: 0.618rem;
+		float: left;
+	}
+	footer ul li {
+		list-style: none;
+		display: inline;
+	}
 }
 
 @media screen and (min-width: 800px) {
-    header {
-        width: 100%;
-    }
-    h1 {
-        height: 100%;
-        font: bold 4.236rem 'Josefin Slab', 'Times', serif;
-    }
-    h2 {
-        font: bold 2.618rem 'Josefin Slab', 'Times', serif;
-    }
-    nav {
-        width: 90%;
-    }
-    nav ul li {
-        width: 20%;
-    }
-    main {
-        width: 90%;
-    }
-    .col {
-        width: 50%;
-        float: left;
-    }
-    .col img {
-        width: 50%;
-        float: left;
-    }
-    footer {
-        width: 90%;
-    }
+	header {
+		width: 100%;
+	}
+	h1 {
+		height: 100%;
+		font: bold 4.236rem 'Josefin Slab', 'Times', serif;
+	}
+	h2 {
+		font: bold 2.618rem 'Josefin Slab', 'Times', serif;
+	}
+	nav {
+		width: 90%;
+	}
+	nav ul li {
+		width: 20%;
+	}
+	main {
+		width: 90%;
+	}
+	.col {
+		width: 50%;
+		float: left;
+	}
+	.col img {
+		width: 50%;
+		float: left;
+	}
+	footer {
+		width: 90%;
+	}
 }
 
 @media screen and (min-width: 1200px) {
-    header {
-        width: 100%;
-    }
-    h1 {
-        height: 100%;
-        font: bold 6.854rem 'Josefin Slab', 'Times', serif;
-    }
-    h2 {
-        font: bold 4.236rem 'Josefin Slab', 'Times', serif;
-    }
-    nav {
-        width: 30%;
-        float: left;
-    }
-    nav ul li {
-        width: 100%;
-        float: left;
-    }
-    nav a:link {
-        width: 100%;
-        display: block;
-        float: left;
-    }
-    main {
-        width: 70%;
-        float: left;
-    }
-/*
-    .col {
-        width: 50%;
-    }
-*/
-    .col img {
-        width: 55%;
-    }
-    footer {
-        width: 90%;
-    }
+	header {
+		width: 100%;
+	}
+	h1 {
+		height: 100%;
+		font: normal 6.854rem 'Josefin Slab', 'Times', serif;
+	}
+	h2 {
+		font: normal 4.236rem 'Josefin Slab', 'Times', serif;
+		min-height: 9rem;
+		padding: 1.0rem;
+	}
+	nav {
+		width: 30%;
+		float: left;
+		padding: 1.0rem;
+	}
+	nav ul li {
+		width: 100%;
+		float: left;
+	}
+	nav a:link {
+		width: 100%;
+		display: block;
+		float: left;
+		font: normal 1.618rem 'Raleway', 'Helvetica', sans-serif;
+	}
+	main {
+		width: 65%;
+		float: left;
+		margin: 1.0rem;
+	}
+	.col img {
+		width: 55%;
+	}
+	footer {
+		width: 90%;
+	}
 }
