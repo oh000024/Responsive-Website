@@ -119,11 +119,14 @@ nav a:visited {
 	display: block;
 	font: bold 1.616rem 'Raleway', 'Helvetica', sans-serif;
 	text-align: center;
+/*	color:hsla(24, 100%, 50%, 0.9);*/
 }
 
 nav a:active,
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+		color:hsla(24, 100%, 50%, 0.9);
+}
 
 main {
 	width: 100%;
